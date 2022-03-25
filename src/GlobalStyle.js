@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     @media screen and (max-width: 720px){
-      padding: 2rem 2rem;
+      padding: 2rem 1rem;
     }
   }
 
@@ -38,9 +38,19 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 10px;
     color: #ffffff;
     font-size: 2rem;
+    transition: 300ms;
 
     &:disabled {
       color: #5e5e64;
+    }
+
+    &:hover {
+      color: #202328;
+      background-color: #ffffff;
+    }
+
+    &:active {
+      background-color: #555;
     }
   }
 `;

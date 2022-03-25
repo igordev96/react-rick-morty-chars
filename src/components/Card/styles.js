@@ -12,6 +12,12 @@ export const StyledCard = styled.div`
   background-color: #35353b;
 
   overflow: hidden;
+
+  transition: 200ms;
+  &:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+  }
 `;
 
 export const Image = styled.div`
