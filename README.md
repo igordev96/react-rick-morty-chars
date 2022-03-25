@@ -12,7 +12,7 @@ API by The Rick and Morty API
 
 ## Demo
 
-<img src="https://raw.githubusercontent.com/igordev96/react-rick-morty-chars/main/rickmorty.gif">
+<img src="https://github.com/igordev96/react-rick-morty-chars/blob/master/rickmorty.gif">
 
 <br>
 
